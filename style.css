@@ -55,7 +55,7 @@ h1 {
 
 .post {
     position: relative;
-    display: fåålex;
+    display: flex;
     text-align: center;
     margin: 35px 0;
     padding: 20px;
