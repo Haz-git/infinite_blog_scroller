@@ -105,6 +105,14 @@ h1 {
 
 .loader {
     display: flex;
+    opacity: 0;
+    position: fixed;
+    bottom: 50px;
+    transition: opacity 0.3s ease-in;
+}
+
+.loader.show {
+    opacity: 1;
 }
 
 .circle {
